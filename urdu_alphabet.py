@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 # Common Urdu alphabet.
 URDU_ALPHABET = set("""
 
-  ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ
- س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ہ ه ھ ء ی ے ‬
+  آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ
+ س ش ص ض ط ظ ع غ ف ق ك ک گ ل م ن ں و ؤ ہ ه ھ ء ی ے ‬
 
  ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
 
@@ -30,3 +30,12 @@ URDU_ALPHABET_COMPLETE = set("""
  ۠ ۡ ۢ ۣ ۤ ۥ ۦ ۧ ۨ ۩ ۪ ۫ ۬ ۭ ۮ ۯ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ۺ ۻ ۼ ۽ ۾ ۿ
 
 """.split())
+
+# Urdu language unicode punctuation
+URDU_PUNCTUATION = set("""
+
+ ؛ ، ٠  ٫ ـ ؟ ۔ ٭ ٬
+
+""".split())
+
+print(sorted(URDU_PUNCTUATION))

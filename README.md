@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/urdu-alphabet/blob/master/LICENSE)
 
-Complete collection of Urdu language 58 alphabet.
+Complete collection of Urdu language 256 alphabet.
 
 ## Wikipedia definition?
 
