@@ -37,5 +37,3 @@ URDU_PUNCTUATION = set("""
  ؛ ، ٠  ٫ ـ ؟ ۔ ٭ ٬
 
 """.split())
-
-print(sorted(URDU_PUNCTUATION))
