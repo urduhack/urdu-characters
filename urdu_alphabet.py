@@ -4,7 +4,7 @@ Complete collection of Urdu alphabet.
 """
 from __future__ import unicode_literals
 
-# Common Urdu alphabet.
+# Common Urdu alphabet
 URDU_ALPHABET = set("""
 
   آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ
@@ -15,7 +15,6 @@ URDU_ALPHABET = set("""
 """.split())
 
 # Complete set of Urdu alphabet. Unicode Range (0600 - 06ff)
-# Reference links
 # http://jrgraphix.net/r/Unicode/0600-06FF
 # https://www.unicode.org/charts/PDF/U0600.pdf
 URDU_ALPHABET_COMPLETE = set("""
@@ -31,9 +30,9 @@ URDU_ALPHABET_COMPLETE = set("""
 
 """.split())
 
-# Urdu language unicode punctuation
+# Urdu punctuation
 URDU_PUNCTUATION = set("""
 
- ؛ ، ٠  ٫ ـ ؟ ۔ ٭ ٬
+ ؛ ، ٠  ٫ ـ ؟ ۔ ٭ ٬ ٪
 
 """.split())
