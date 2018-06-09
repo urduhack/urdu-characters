@@ -5,7 +5,7 @@ Complete collection of Urdu alphabet.
 from __future__ import unicode_literals
 
 # Common Urdu alphabet
-URDU_ALPHABET = set("""
+URDU_ALPHABET_COMMON = set("""
 
   آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ
  س ش ص ض ط ظ ع غ ف ق ك ک گ ل م ن ں و ؤ ہ ه ھ ء ی ے ‬
