@@ -18,6 +18,7 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Community](#community)
 - [Contributors](#contributors)
+- [Sponsors](#sponsors)
 - [Copyright and license](#copyright-and-license)
 
 ## Quick start
@@ -48,6 +49,9 @@ Get updates on Urdu Hack nlp development and chat with the project maintainers a
 
 Special thanks to everyone who contributed to getting the Urdu hack to the current state.
 
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor]()]
 
 ## Copyright and license
 
