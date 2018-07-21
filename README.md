@@ -56,6 +56,8 @@ Special thanks to everyone who contributed to getting the Urdu hack to the curre
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor]()]
 
+<a href="https://arbisoft.com" target="_blank"><img height="64" src="https://arbisoft.com/static/media/uploads/arbisoft.png"></a>
+
 ## Copyright and license
 
 Code released under the [MIT License](ttps://github.com/urduhack/urdu-alphabet/blob/master/LICENSE).
