@@ -44,12 +44,12 @@ Have a bug or a feature request? If you wish to remove or update some thing, ple
 
 ## Community
 
-Get updates on Urdu Hack nlp development and chat with the project maintainers and community members.
+Get updates on UrduHack nlp development and chat with the project maintainers and community members.
 
 
 ## Contributors
 
-Special thanks to everyone who contributed to getting the Urdu hack to the current state.
+Special thanks to everyone who contributed to getting the UrduHack to the current state.
 
 ## Sponsors
 
@@ -59,4 +59,4 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 ## Copyright and license
 
-Code released under the [MIT License](ttps://github.com/urduhack/urdu-alphabet/blob/master/LICENSE).
+Code released under the [MIT License](ttps://github.com/urduhack/urduhack/blob/master/LICENSE).
