@@ -1,3 +1,4 @@
+# coding: utf8
 """Convert mix Arabic|other language characters to Urdu characters"""
 from __future__ import unicode_literals
 
@@ -6,7 +7,6 @@ ARABIC_TO_URDU_CHARACTER_CONVERTER = {}
 _mapper = [
     ('ا', ['ﺍ', 'ﺎ', 'ﺃ']),
     ('آ', ['ﺁ', 'ﺂ']),
-    ('إ', ['ﺇ', ]),
     ('ب', ['ﺏ', 'ﺐ', 'ﺑ', 'ﺒ']),
     ('پ', ['ﭖ', 'ﭘ', 'ﭙ', 'ﺚ']),
     ('ت', ['ﺕ', 'ﺖ', 'ﺗ', 'ﺘ']),
@@ -49,15 +49,15 @@ _mapper = [
     ('ی', ['ﯼ', 'ى', 'ﯽ', 'ﻰ', 'ﻱ', 'ﻲ', 'ﯾ', 'ﯿ']),
 
     # multiple characters
-    ('لا', ['ﻻ', 'ﻼ', ]),
+    # ('لا', ['ﻻ', 'ﻼ', ]),
 
     ]
 
 urdu_characters = []
 arabic_characters = []
 
-for char_mapper in _mapper:
-    urdu_char, arabic_chars_list = char_mapper
+for _tuple in _mapper:
+    urdu_char, arabic_chars_list = _tuple
     urdu_characters.append(urdu_char)
     arabic_characters.append(arabic_chars_list)
 
