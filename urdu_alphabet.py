@@ -20,6 +20,11 @@ URDU_PUNCTUATION = frozenset("""
 
 """.split())
 
+DIACRITICS = frozenset("""
+ 
+ \u064B \u0670 \u0650 \u064F 
+
+""")
+
 ARABIC_SYMBOLS = frozenset(""" ﷺ """)
 
-ALL_CHARACTERS = URDU_ALPHABET_COMPLETE | URDU_DIGITS | URDU_PUNCTUATION | ARABIC_SYMBOLS
