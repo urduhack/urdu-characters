@@ -27,4 +27,3 @@ DIACRITICS = frozenset("""
 """)
 
 ARABIC_SYMBOLS = frozenset(""" ﷺ """)
-
