@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/urdu-alphabet/blob/master/LICENSE)
 ![Made with Python](https://img.shields.io/badge/made%20with-Python-blue.svg)
 ![Last commit](https://img.shields.io/github/last-commit/urduhack/urdu-alphabet.svg)
+[![Build Status](https://travis-ci.org/urduhack/urdu-alphabet.svg?branch=master)](https://travis-ci.org/urduhack/urdu-alphabet)
 
 Complete collection of Urdu language 58 alphabet.
 
