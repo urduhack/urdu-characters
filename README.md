@@ -27,9 +27,10 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 
 `urdu_alphabet.py` contains complete urdu characters with unicode Range (0600 - 06ff). This file contains three type of characters list. 
 
-- `URDU_DIGITS` python set contains 10 URDU DIGITS.
-- `URDU_ALPHABET_COMPLETE` python set contains 58  characters. **Complete List**
-- `URDU_PUNCTUATION` python set contains 10 PUNCTUATION characters.
+- `URDU_DIGITS` set contains 10 URDU DIGITS.
+- `URDU_ALPHABET_COMPLETE` set contains 58  characters. **Complete List**
+- `URDU_PUNCTUATION` set contains 10 PUNCTUATION characters.
+- `DIACRITICS` set contains 4 basic characters.
 
 
 ## Contributing

@@ -1,6 +1,5 @@
 # coding: utf8
 """Complete collection of Urdu alphabet."""
-from __future__ import unicode_literals
 
 # Complete set of Urdu alphabet.
 URDU_ALPHABET_COMPLETE = frozenset("""
