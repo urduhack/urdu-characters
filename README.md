@@ -5,14 +5,24 @@
 ![Last commit](https://img.shields.io/github/last-commit/urduhack/urdu-alphabet.svg)
 [![Build Status](https://travis-ci.org/urduhack/urdu-alphabet.svg?branch=master)](https://travis-ci.org/urduhack/urdu-alphabet)
 
-Complete collection of Urdu language 58 alphabet.
+Complete collection of Urdu language character.
 
 ## Wikipedia definition?
 
 The Urdu alphabet is the right-to-left alphabet used for the Urdu language. It is a modification of the Persian alphabet known as Perso-Arabic, which is itself a derivative of the Arabic alphabet. 
 The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct letter cases, the Urdu alphabet is typically written in the calligraphic Nastaʿlīq script.
 
-![urdu-alphabet](https://raw.githubusercontent.com/urduhack/urdu-alphabet/master/design.png)
+- http://www.panl10n.net/english/outputs/Pakistan/Urdu-Encoding-Collation.pdf
+- http://jrgraphix.net/r/Unicode/0600-06FF
+- https://www.unicode.org/charts/PDF/U0600.pdf
+- https://www.unicode.org/cldr/charts/34/collation/ur.html
+
+## Urdu Unicode Range(0600-06ff)
+![urdu-unicode](https://raw.githubusercontent.com/urduhack/urdu-alphabet/master/img/unicode_0600_06ff.png)
+
+## urdu_alphabet.py file
+![urdu-alphabet](https://raw.githubusercontent.com/urduhack/urdu-alphabet/master/img/design.png)
+
 
 ## Table of contents
 
