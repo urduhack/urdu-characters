@@ -12,24 +12,20 @@ class TestUrduAlphabet(object):
 
     def test_urdu_alphabet(self):
         """ Test urdu_alphabet"""
-        assert len(URDU_ALPHABET) == 44
         for character in URDU_ALPHABET:
             assert len(urdu_unicode_range.findall(character)) == 0
 
     def test_urdu_digits(self):
         """ Test """
-        assert len(URDU_DIGITS) == 11
         for character in URDU_DIGITS:
             assert len(urdu_unicode_range.findall(character)) == 0
 
     def test_urdu_punctuation(self):
         """ Test """
-        assert len(URDU_PUNCTUATION) == 7
         for character in URDU_PUNCTUATION:
             assert len(urdu_unicode_range.findall(character)) == 0
 
     def test_diacritics(self):
         """ Test """
-        assert len(DIACRITICS) == 6
         for character in DIACRITICS:
             assert len(urdu_unicode_range.findall(character)) == 0
