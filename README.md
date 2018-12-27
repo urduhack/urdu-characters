@@ -1,11 +1,11 @@
-# Urdu Alphabet
+# Urdu Language Alphabet
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/urdu-alphabet/blob/master/LICENSE)
 ![Made with Python](https://img.shields.io/badge/made%20with-Python-blue.svg)
 ![Last commit](https://img.shields.io/github/last-commit/urduhack/urdu-alphabet.svg)
 [![Build Status](https://travis-ci.org/urduhack/urdu-alphabet.svg?branch=master)](https://travis-ci.org/urduhack/urdu-alphabet)
 
-Complete collection of Urdu language character.
+Complete collection of Urdu language characters.
 
 ## Wikipedia definition?
 
@@ -20,7 +20,7 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 ## Urdu Unicode Range(0600-06ff)
 ![urdu-unicode](https://raw.githubusercontent.com/urduhack/urdu-alphabet/master/img/unicode_0600_06ff.png)
 
-## urdu_alphabet.py file
+## urdu_alphabet.py Content
 ![urdu-alphabet](https://raw.githubusercontent.com/urduhack/urdu-alphabet/master/img/design.png)
 
 
@@ -40,7 +40,7 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 
 - `URDU_DIGITS` set contains 10 URDU DIGITS.
 - `URDU_ALPHABET` set contains 44  characters. **Complete List**
-- `URDU_PUNCTUATION` set contains 10 PUNCTUATION characters.
+- `URDU_PUNCTUATION` set contains 6 PUNCTUATION characters.
 - `DIACRITICS` set contains 4 basic characters.
 
 
