@@ -1,4 +1,4 @@
-# Urdu Language Alphabet
+# Urdu Language Alphabets
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/urdu-alphabet/blob/master/LICENSE)
 ![Made with Python](https://img.shields.io/badge/made%20with-Python-blue.svg)
@@ -7,7 +7,7 @@
 
 Complete collection of Urdu language characters.
 
-## Wikipedia definition?
+## Wikipedia definition
 
 The Urdu alphabet is the right-to-left alphabet used for the Urdu language. It is a modification of the Persian alphabet known as Perso-Arabic, which is itself a derivative of the Arabic alphabet. 
 The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct letter cases, the Urdu alphabet is typically written in the calligraphic Nastaʿlīq script.
@@ -39,7 +39,7 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 `urdu_alphabet.py` contains complete urdu characters with unicode Range (0600 - 06ff). This file contains three type of characters list. 
 
 - `URDU_DIGITS` set contains 10 URDU DIGITS.
-- `URDU_ALPHABET` set contains 44  characters. **Complete List**
+- `URDU_ALPHABET` set contains 44  characters.
 - `URDU_PUNCTUATION` set contains 6 PUNCTUATION characters.
 - `DIACRITICS` set contains 4 basic characters.
 
