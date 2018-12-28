@@ -113,26 +113,13 @@ URDU_CHARACTERS_UNICODE = {'\u0600': '\u0600',
                            }
 
 # Complete set of Urdu alphabet.
-URDU_ALPHABET = frozenset("""
-
- آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ
- س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ہ ه ۃ ھ ء ی ے ‬
- 
-""".split())
+URDU_ALPHABET = frozenset("آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ہ ۃ ھ ء ی ے".split())
 
 # Urdu Digits from 0 to 9
-URDU_DIGITS = frozenset(""" ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹  """.split())
+URDU_DIGITS = frozenset("۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹".split())
 
 # Urdu punctuation
-URDU_PUNCTUATION = frozenset("""
-
- ؛ ، ٫  ؟ ۔ ٪
-
-""".split())
+URDU_PUNCTUATIONS = frozenset("؛ ، ٫  ؟ ۔ ٪".split())
 
 # Urdu Aerabs
-DIACRITICS = frozenset("""
- 
- \u064B \u0670 \u0650 \u064F 
-
-""".split())
+URDU_DIACRITICS = frozenset("\u064B \u0670 \u0650 \u064F".split())
