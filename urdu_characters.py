@@ -18,6 +18,18 @@ URDU_ALL_CHARACTERS = frozenset("""
 ۔ 
 """.split())
 
+# Complete set of Urdu alphabet.
+URDU_ALPHABETS = frozenset("آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ہ ۃ ھ ء ی ے".split())
+
+# Urdu Digits from 0 to 9
+URDU_DIGITS = frozenset("۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹".split())
+
+# Urdu punctuation
+URDU_PUNCTUATIONS = frozenset("؛ ، ٫  ؟ ۔ ٪".split())
+
+# Urdu Aerabs
+URDU_DIACRITICS = frozenset("\u064B \u0670 \u0650 \u064F".split())
+
 URDU_ALL_CHARACTERS_UNICODE = {'\u0600': '\u0600',
                                '\u0601': '\u0601',
                                '\u0602': '\u0602',
@@ -104,15 +116,3 @@ URDU_ALL_CHARACTERS_UNICODE = {'\u0600': '\u0600',
                                '۸': '\u06f8',
                                '۹': '\u06f9',
                                }
-
-# Complete set of Urdu alphabet.
-URDU_ALPHABETS = frozenset("آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ہ ۃ ھ ء ی ے".split())
-
-# Urdu Digits from 0 to 9
-URDU_DIGITS = frozenset("۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹".split())
-
-# Urdu punctuation
-URDU_PUNCTUATIONS = frozenset("؛ ، ٫  ؟ ۔ ٪".split())
-
-# Urdu Aerabs
-URDU_DIACRITICS = frozenset("\u064B \u0670 \u0650 \u064F".split())
