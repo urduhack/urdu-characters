@@ -1,8 +1,8 @@
 # coding: utf8
 """ Test cases """
 
-from urdu_alphabet import URDU_ALL_CHARACTERS, URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS, URDU_DIACRITICS
-from urdu_alphabet import URDU_ALL_CHARACTERS_UNICODE
+from urdu_characters import URDU_ALL_CHARACTERS, URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS, URDU_DIACRITICS
+from urdu_characters import URDU_ALL_CHARACTERS_UNICODE
 import re
 
 urdu_unicode_range = re.compile("[^\u0600-\u06ff]+")
