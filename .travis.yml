@@ -10,6 +10,7 @@ install:
 
 script:
   - py.test -v .
+  - pytest --cov=./
 
 notifications:
   slack: urduhack:HarNbK5WrXQbu9XuFLPsSFtM
