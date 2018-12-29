@@ -1,9 +1,10 @@
 # Complete Urdu Language Characters and Alphabets
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/urdu-alphabet/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/urdu-characters/blob/master/LICENSE)
 ![Made with Python](https://img.shields.io/badge/made%20with-Python-blue.svg)
 ![Last commit](https://img.shields.io/github/last-commit/urduhack/urdu-alphabet.svg)
 [![Build Status](https://travis-ci.org/urduhack/urdu-alphabet.svg?branch=master)](https://travis-ci.org/urduhack/urdu-alphabet)
+[![codecov](https://codecov.io/gh/urduhack/urdu-characters/branch/master/graph/badge.svg)](https://codecov.io/gh/urduhack/urdu-characters)
 
 Complete collection of Urdu language characters.
 
@@ -51,7 +52,7 @@ All contributions are more than welcomed. Contributions may close an issue, fix 
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? If you wish to remove or update some thing, please file an issue first before sending a PR on the repo. [[please open a new issue](https://github.com/urduhack/urdu-alphabet/issues/new)]
+Have a bug or a feature request? If you wish to remove or update some thing, please file an issue first before sending a PR on the repo. [[please open a new issue](https://github.com/urduhack/urdu-characters/issues/new)]
 
 
 ## Community
