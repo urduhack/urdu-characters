@@ -11,6 +11,7 @@ install:
 script:
   - py.test -v .
   - pytest --cov=./
+  - codecov
 
 notifications:
   slack: urduhack:HarNbK5WrXQbu9XuFLPsSFtM
