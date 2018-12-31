@@ -38,8 +38,6 @@ class TestUrduAlphabet(object):
     def test_unicode(self):
         """ Test """
         for character in URDU_ALL_CHARACTERS:
-            if character == "\u202c":
-                continue
             assert character in URDU_ALL_CHARACTERS_UNICODE
 
         for character, value in URDU_ALL_CHARACTERS_UNICODE.items():
