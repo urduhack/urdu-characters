@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/urdu-characters/blob/master/LICENSE)
 ![Made with Python](https://img.shields.io/badge/made%20with-Python-blue.svg)
 ![Last commit](https://img.shields.io/github/last-commit/urduhack/urdu-alphabet.svg)
-[![Build Status](https://travis-ci.org/urduhack/urdu-alphabet.svg?branch=master)](https://travis-ci.org/urduhack/urdu-alphabet)
+[![Build Status](https://travis-ci.org/urduhack/urdu-characters.svg?branch=master)](https://travis-ci.org/urduhack/urdu-characters)
 [![codecov](https://codecov.io/gh/urduhack/urdu-characters/branch/master/graph/badge.svg)](https://codecov.io/gh/urduhack/urdu-characters)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/akkefa)
 
