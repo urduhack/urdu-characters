@@ -43,3 +43,10 @@ class TestUrduAlphabet(object):
         for character, value in URDU_ALL_CHARACTERS_UNICODE.items():
             assert character in URDU_ALL_CHARACTERS
             assert value in URDU_ALL_CHARACTERS
+
+        tmp = set()
+        for character, value in URDU_ALL_CHARACTERS_UNICODE.items():
+            tmp.add(value)
+
+        for character in URDU_ALL_CHARACTERS:
+            assert character in tmp
