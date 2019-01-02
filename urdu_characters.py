@@ -2,7 +2,8 @@
 """Complete collection of Urdu alphabet."""
 
 # Complete list of Urdu language Characters.
-URDU_ALL_CHARACTERS = frozenset("آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۃ ھ ء ی ئ ے"
+URDU_ALL_CHARACTERS = frozenset("آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۂ ۃ ھ ء ی "
+                                " ئ ے "
                                 " ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ "
                                 " \u0600 \u0601 \u0602 \u0603 \u060c \u060d \u060e \u060f  "
                                 " \u0610 \u0611 \u0612 \u0613 \u0614 \u0615 "
