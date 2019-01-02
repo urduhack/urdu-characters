@@ -2,7 +2,7 @@
 """Complete collection of Urdu alphabet."""
 
 # Complete list of Urdu language Characters.
-URDU_ALL_CHARACTERS = frozenset(" آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ہ ۃ ھ ء ی ئ ے "
+URDU_ALL_CHARACTERS = frozenset("آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۃ ھ ء ی ئ ے"
                                 " ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ "
                                 " \u0600 \u0601 \u0602 \u0603 \u060c \u060d \u060e \u060f  "
                                 " \u0610 \u0611 \u0612 \u0613 \u0614 \u0615 "
@@ -12,7 +12,7 @@ URDU_ALL_CHARACTERS = frozenset(" آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر �
                                 " \u0670 ".split())
 
 # Complete set of Urdu alphabet.
-URDU_ALPHABETS = frozenset("آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ہ ۃ ھ ء ی ئ "
+URDU_ALPHABETS = frozenset("آ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۃ ھ ء ی ئ "
                            "ے".split())
 
 # Urdu Digits from 0 to 9
@@ -86,7 +86,6 @@ URDU_ALL_CHARACTERS_UNICODE = {'\u0600': '\u0600',
                                'ل': '\u0644',
                                'م': '\u0645',
                                'ن': '\u0646',
-                               'و': '\u0648',
                                'چ': '\u0686',
                                'ڈ': '\u0688',
                                'ڑ': '\u0691',
@@ -94,6 +93,8 @@ URDU_ALL_CHARACTERS_UNICODE = {'\u0600': '\u0600',
                                'ک': '\u06a9',
                                'گ': '\u06af',
                                'ں': '\u06ba',
+                               'و': '\u0648',
+                               'ؤ': '\u0624',
                                'ھ': '\u06be',
                                'ہ': '\u06c1',
                                'ۃ': '\u06c3',
