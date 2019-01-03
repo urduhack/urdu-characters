@@ -18,6 +18,8 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 - http://jrgraphix.net/r/Unicode/0600-06FF
 - https://www.unicode.org/charts/PDF/U0600.pdf
 - https://www.unicode.org/cldr/charts/34/collation/ur.html
+- http://www.unics.uni-hannover.de/nhtcapri/urdu-alphabet.html
+- https://r12a.github.io/scripts/arabic/urdu
 
 ## Urdu Unicode Range(0600-06ff)
 ![urdu-unicode](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/unicode_0600_06ff.png)
