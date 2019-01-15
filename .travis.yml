@@ -10,7 +10,7 @@ install:
 
 script:
   - py.test -v .
-  - pytest --cov=./
+  - pytest --cov=urdu_characters -v
   - codecov
 
 notifications:
