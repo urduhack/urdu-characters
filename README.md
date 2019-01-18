@@ -88,10 +88,10 @@ Unicode provides support for Urdu language but there is a problem we have to cat
 For example consider a word "خاموشی", now if we see the codes at the back-end for this word we can find two different sets of codes form Unicode table.
 
 Set of codes #1
-<img src="https://i.imgur.com/onNsKUM.png">
+<img src="https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/soc_arabic.png">
 
 Set of codes #2
-<img src="https://i.imgur.com/QiaBoUJ.png">
+<img src="https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/soc_urdu.png">
 
 Now the problem is how do we know on which codes we have to train our model on? If we train our model on a specific range (Urdu 0600-06ff) and our dataset has some words formed using the Arabic set of codes then our application will fail to recognize those words resulting in low accuracy. This redundancy in codes of words hinders us to achieve a high accuracy.
 
