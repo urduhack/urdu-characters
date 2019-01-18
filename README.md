@@ -9,7 +9,9 @@
 
 Complete collection of Urdu language characters.
 
-## Wikipedia definition
+## About Urdu Language
+
+Urdu is widely known as the national language of Pakistan, but it is also one of India’s 22 official languages. Modern Standard Urdu, once commonly known as a variant of Hindustani, a colloquial language combining the modified Sanskrit words found in Hindi with wordsbrought to India via Persian, Arabic, Portuguese, Turkish and other languages, is a language with one of the most fascinating and complex histories in the world.
 
 The Urdu alphabet is the right-to-left alphabet used for the Urdu language. It is a modification of the Persian alphabet known as Perso-Arabic, which is itself a derivative of the Arabic alphabet. 
 The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct letter cases, the Urdu alphabet is typically written in the calligraphic Nastaʿlīq script.
@@ -20,6 +22,20 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 - https://www.unicode.org/cldr/charts/34/collation/ur.html
 - http://www.unics.uni-hannover.de/nhtcapri/urdu-alphabet.html
 - https://r12a.github.io/scripts/arabic/urdu
+- https://blogs.transparent.com/urdu/a-short-history-of-urdu/
+
+## Encoding
+
+Character encoding may be defined as assigning a unique number to each language character to be processed by the computer. Whenever a character is input from keyboard or other input devices, this particular code is generated internally in the computer. Arbitrary encoding may be defined for any application (e.g. 80 for letter ‘a’, 81 for letter ‘b’). However, if different vendors are defining arbitrary encodings, their encodings may not agree with one another. 
+
+With the advent of the Internet, it has now become increasingly essential to standardize the encoding scheme because users are accessing data created by a variety of sources through web browsers (a single application). Realizing the significance of standardizing encoding, work was done early for English and American Standard Code for Information Interchange (ASCII) was defined in 1968. This standard had 128 slots defined using 7 bits by American National Standards Institute (ANSI).
+
+## What is Unicode?
+
+Initially most documentation was done in a single language, therefore 8-bit single language code pages served the need. However, in 1990s, with increasing needs for multi-lingual documents (where one could require Japanese and Arabic in the same document), it was realized that defining 8-bit code pages were not a scalable solution. Adding code pages for various languages and scripts and using them together in one application created a lot of difficulty and complexity in processing because users had to keep toggling between them.
+
+To address this issue, major vendors got together and created Unicode consortium (www.unicode.org). This consortium started working on developing a singular, unified and universal code chart which would contain all characters of all languages. As 8-bit (256 slots) code pages were insufficient for this requirement, Unicode character encoding standard was developed using 16 bits (65536 slots). This space has been divided to cater to various scripts and thus bypassed the need for toggling for different languages.
+
 
 ## Urdu Unicode Range(0600-06ff)
 ![urdu-unicode](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/unicode_0600_06ff.png)
@@ -33,6 +49,7 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 - [Quick start](#quick-start)
 - [Contributing](#contributing)
 - [Bugs and feature requests](#bugs-and-feature-requests)
+- [Python2 vs Python3](#python2-vs-python3)
 - [Community](#community)
 - [Contributors](#contributors)
 - [Sponsors](#sponsors)
@@ -57,6 +74,12 @@ All contributions are more than welcomed. Contributions may close an issue, fix 
 
 Have a bug or a feature request? If you wish to remove or update some thing, please file an issue first before sending a PR on the repo. [[please open a new issue](https://github.com/urduhack/urdu-characters/issues/new)]
 
+## Python2 vs Python3
+
+Python 2 used the ASCII alphabet, so when you type a string like "Hello, World" it is handled as ACII which is unfortunately limited to several hundred characters and is not very flexible for encoding non-English characters. To use Unicode character encoding, which supports 128,000+ characters across modern and historic languages, you’d have to type u"Hello, World", with the u prefix donating Unicode.
+
+Python 3 on the other hand uses Unicode by default. This allows for far greater language support as well as displaying items like emojis.
+
 
 ## Community
 
@@ -76,3 +99,4 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 ## Copyright and license
 
 Code released under the [MIT License](ttps://github.com/urduhack/urduhack/blob/master/LICENSE).
+
