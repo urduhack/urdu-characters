@@ -47,10 +47,10 @@ To address this issue, major vendors got together and created Unicode consortium
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Contributing](#contributing)
-- [Bugs and feature requests](#bugs-and-feature-requests)
 - [Python2 vs Python3](#python2-vs-python3)
 - [Urdu vs Arabic Characters Challenge](#urdu-vs-arabic-characters-challenge)
+- [Contributing](#contributing)
+- [Bugs and feature requests](#bugs-and-feature-requests)
 - [Community](#community)
 - [Contributors](#contributors)
 - [Sponsors](#sponsors)
@@ -64,16 +64,6 @@ To address this issue, major vendors got together and created Unicode consortium
 - `URDU_ALPHABET` set contains 44  characters.
 - `URDU_PUNCTUATION` set contains 6 PUNCTUATION characters.
 - `DIACRITICS` set contains 4 basic characters.
-
-
-## Contributing
-
-All contributions are more than welcomed. Contributions may close an issue, fix a bug (reported or not reported), improve the existing code and so on.
-
-
-## Bugs and feature requests
-
-Have a bug or a feature request? If you wish to remove or update some thing, please file an issue first before sending a PR on the repo. [[please open a new issue](https://github.com/urduhack/urdu-characters/issues/new)]
 
 ## Python2 vs Python3
 
@@ -96,6 +86,14 @@ Set of codes #2
 Now the problem is how do we know on which codes we have to train our model on? If we train our model on a specific range (Urdu 0600-06ff) and our dataset has some words formed using the Arabic set of codes then our application will fail to recognize those words resulting in low accuracy. This redundancy in codes of words hinders us to achieve a high accuracy.
 
 So how do we handle this issue? You can go up and look at the Urdu Unicode Range table. Unicode has standardized this range (0600-06ff) for Urdu only. So all we need to do is to do some data pre-processing before running any alogrithm on data. For each word in data having redundant codes, we can replace that word with the same standardized Urdu word belonging to the range 0600 to 06ff. That's it!
+
+## Contributing
+
+All contributions are more than welcomed. Contributions may close an issue, fix a bug (reported or not reported), improve the existing code and so on.
+
+## Bugs and feature requests
+
+Have a bug or a feature request? If you wish to remove or update some thing, please file an issue first before sending a PR on the repo. [[please open a new issue](https://github.com/urduhack/urdu-characters/issues/new)]
 
 ## Community
 
