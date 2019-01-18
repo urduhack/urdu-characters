@@ -50,6 +50,7 @@ To address this issue, major vendors got together and created Unicode consortium
 - [Contributing](#contributing)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Python2 vs Python3](#python2-vs-python3)
+- [Urdu vs Arabic Characters Challenge](#urdu-vs-arabic-characters-challenge)
 - [Community](#community)
 - [Contributors](#contributors)
 - [Sponsors](#sponsors)
@@ -80,6 +81,21 @@ Python 2 used the ASCII alphabet, so when you type a string like "Hello, World" 
 
 Python 3 on the other hand uses Unicode by default. This allows for far greater language support as well as displaying items like emojis.
 
+## Urdu vs Arabic Characters Challenge
+
+Unicode provides support for Urdu language but there is a problem we have to cater in order to utilise that support. The Urdu is incorporated in Arabic language's block in the Unicode table as Urdu is derived from Arabic script. This makes things a little bit complicated for computer scientists trying to develop applications for Urdu language.
+
+For example consider a word "خاموشی", now if we see the codes at the back-end for this word we can find two different sets of codes form Unicode table.
+
+Set of codes #1
+<img src="https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/soc_arabic.png">
+
+Set of codes #2
+<img src="https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/soc_urdu.png">
+
+Now the problem is how do we know on which codes we have to train our model on? If we train our model on a specific range (Urdu 0600-06ff) and our dataset has some words formed using the Arabic set of codes then our application will fail to recognize those words resulting in low accuracy. This redundancy in codes of words hinders us to achieve a high accuracy.
+
+So how do we handle this issue? You can go up and look at the Urdu Unicode Range table. Unicode has standardized this range (0600-06ff) for Urdu only. So all we need to do is to do some data pre-processing before running any alogrithm on data. For each word in data having redundant codes, we can replace that word with the same standardized Urdu word belonging to the range 0600 to 06ff. That's it!
 
 ## Community
 
