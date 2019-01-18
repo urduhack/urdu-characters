@@ -36,11 +36,6 @@ Initially most documentation was done in a single language, therefore 8-bit sing
 
 To address this issue, major vendors got together and created Unicode consortium (www.unicode.org). This consortium started working on developing a singular, unified and universal code chart which would contain all characters of all languages. As 8-bit (256 slots) code pages were insufficient for this requirement, Unicode character encoding standard was developed using 16 bits (65536 slots). This space has been divided to cater to various scripts and thus bypassed the need for toggling for different languages.
 
-## Python2 vs Python3
-
-Python 2 used the ASCII alphabet, so when you type a string like "Hello, World" it is handled as ACII which is unfortunately limited to several hundred characters and is not very flexible for encoding non-English characters. To use Unicode character encoding, which supports 128,000+ characters across modern and historic languages, you’d have to type u"Hello, World", with the u prefix donating Unicode.
-
-Python 3 on the other hand uses Unicode by default. This allows for far greater language support as well as displaying items like emojis.
 
 ## Urdu Unicode Range(0600-06ff)
 ![urdu-unicode](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/unicode_0600_06ff.png)
@@ -54,6 +49,7 @@ Python 3 on the other hand uses Unicode by default. This allows for far greater 
 - [Quick start](#quick-start)
 - [Contributing](#contributing)
 - [Bugs and feature requests](#bugs-and-feature-requests)
+- [Python2 vs Python3](#python2-vs-python3)
 - [Community](#community)
 - [Contributors](#contributors)
 - [Sponsors](#sponsors)
@@ -77,6 +73,12 @@ All contributions are more than welcomed. Contributions may close an issue, fix 
 ## Bugs and feature requests
 
 Have a bug or a feature request? If you wish to remove or update some thing, please file an issue first before sending a PR on the repo. [[please open a new issue](https://github.com/urduhack/urdu-characters/issues/new)]
+
+## Python2 vs Python3
+
+Python 2 used the ASCII alphabet, so when you type a string like "Hello, World" it is handled as ACII which is unfortunately limited to several hundred characters and is not very flexible for encoding non-English characters. To use Unicode character encoding, which supports 128,000+ characters across modern and historic languages, you’d have to type u"Hello, World", with the u prefix donating Unicode.
+
+Python 3 on the other hand uses Unicode by default. This allows for far greater language support as well as displaying items like emojis.
 
 
 ## Community
