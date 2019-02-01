@@ -1,9 +1,10 @@
 # coding: utf8
 """ Test cases """
 import re
-from urdu_characters import URDU_ALL_CHARACTERS, URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS, URDU_DIACRITICS
-from urdu_characters import URDU_ALL_CHARACTERS_UNICODE
+import unicodedata
 
+from urdu_characters import (URDU_ALL_CHARACTERS, URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS, URDU_DIACRITICS,
+    URDU_ALL_CHARACTERS_UNICODE, )
 
 URDU_UNICODE_RANGE = re.compile("[^\u0600-\u06ff]+")
 
@@ -50,3 +51,12 @@ class TestUrduAlphabet():
 
         for character in URDU_ALL_CHARACTERS:
             assert character in tmp
+
+    def test_unicode_norm(self):
+        """Test case"""
+        for character in URDU_ALL_CHARACTERS:
+            if character == "ئ":
+                continue
+            characters = unicodedata.normalize('NFKD', character)
+            for char in characters:
+                assert char in URDU_ALL_CHARACTERS, characters
