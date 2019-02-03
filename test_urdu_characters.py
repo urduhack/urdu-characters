@@ -16,32 +16,38 @@ class TestUrduAlphabet():
         """ Test urdu_alphabet"""
         for character in URDU_ALPHABETS:
             assert character in URDU_ALL_CHARACTERS
+            assert len(character) == 1
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
 
     def test_urdu_digits(self):
         """ Test """
         for character in URDU_DIGITS:
+            assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
 
     def test_urdu_punctuation(self):
         """ Test """
         for character in URDU_PUNCTUATIONS:
+            assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
 
     def test_diacritics(self):
         """ Test """
         for character in URDU_DIACRITICS:
+            assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
 
     def test_unicode(self):
         """ Test """
         for character in URDU_ALL_CHARACTERS:
+            assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS_UNICODE
 
         for character, value in URDU_ALL_CHARACTERS_UNICODE.items():
+            assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert value in URDU_ALL_CHARACTERS
 
@@ -50,6 +56,7 @@ class TestUrduAlphabet():
             tmp.add(value)
 
         for character in URDU_ALL_CHARACTERS:
+            assert len(character) == 1
             assert character in tmp
 
     def test_unicode_norm(self):
