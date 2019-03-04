@@ -53,9 +53,7 @@ To address this issue, major vendors got together and created Unicode consortium
 - [Urdu vs Arabic Characters Challenge](#urdu-vs-arabic-characters-challenge)
 - [Contributing](#contributing)
 - [Bugs and feature requests](#bugs-and-feature-requests)
-- [Community](#community)
 - [Contributors](#contributors)
-- [Sponsors](#sponsors)
 - [Copyright and license](#copyright-and-license)
 
 ## Quick start
@@ -97,20 +95,22 @@ All contributions are more than welcomed. Contributions may close an issue, fix 
 
 Have a bug or a feature request? If you wish to remove or update some thing, please file an issue first before sending a PR on the repo. [[please open a new issue](https://github.com/urduhack/urdu-characters/issues/new)]
 
-## Community
-
-Get updates on UrduHack nlp development and chat with the project maintainers and community members.
-
-
 ## Contributors
 
 Special thanks to everyone who contributed to getting the UrduHack to the current state.
 
-## Sponsors
+## Backers [![Backers on Open Collective](https://opencollective.com/urduhack/backers/badge.svg)](#backers)
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor]()]
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/urduhack#backer)]
+
+<a href="https://opencollective.com/urduhack#backers" target="_blank"><img src="https://opencollective.com/urduhack/backers.svg?width=890"></a>
+
+## Sponsors [![Sponsors on Open Collective](https://opencollective.com/urduhack/sponsors/badge.svg)](#sponsors)
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/urduhack#sponsor)]
 
 <a href="https://arbisoft.com" target="_blank"><img height="64" src="https://arbisoft.com/static/media/uploads/arbisoft.png"></a>
+<a href="https://opencollective.com/urduhack/sponsor/0/website" target="_blank"><img src="https://opencollective.com/urduhack/sponsor/0/avatar.svg"></a>
 
 ## Copyright and license
 
