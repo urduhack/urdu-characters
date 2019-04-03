@@ -114,5 +114,5 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 ## Copyright and license
 
-Code released under the [MIT License](ttps://github.com/urduhack/urduhack/blob/master/LICENSE).
+Code released under the [MIT License](https://github.com/urduhack/urdu-characters/blob/master/LICENSE).
 
