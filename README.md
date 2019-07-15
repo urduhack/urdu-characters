@@ -111,8 +111,8 @@ Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/urduhack#sponsor)]
 
-<a href="https://arbisoft.com" target="_blank"><img height="64" src="https://arbisoft.com/static/media/uploads/arbisoft.png"></a>
 <a href="https://opencollective.com/urduhack/sponsor/0/website" target="_blank"><img src="https://opencollective.com/urduhack/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/urduhack/sponsor/0/website" target="_blank"><img src="https://opencollective.com/urduhack/sponsor/1/avatar.svg"></a>
 
 ## Copyright and license
 
