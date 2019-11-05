@@ -67,11 +67,6 @@ To address this issue, major vendors got together and created Unicode consortium
 - `URDU_PUNCTUATION` set contains 6 PUNCTUATION characters.
 - `DIACRITICS` set contains 4 basic characters.
 
-## Python2 vs Python3
-
-Python 2 used the ASCII alphabet, so when you type a string like "Hello, World" it is handled as ASCII which is unfortunately limited to several hundred characters and is not very flexible for encoding non-English characters. To use Unicode character encoding, which supports 128,000+ characters across modern and historic languages, you’d have to type u"Hello, World", with the u prefix donating Unicode.
-
-Python 3 on the other hand uses Unicode by default. This allows for far greater language support as well as displaying items like emojis.
 
 ## Urdu vs Arabic Characters Challenge
 
