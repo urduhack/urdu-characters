@@ -67,3 +67,13 @@ class TestUrduAlphabet():
             characters = unicodedata.normalize('NFKD', character)
             for char in characters:
                 assert char in URDU_ALL_CHARACTERS, characters
+
+    def test_check_data(self):
+        """Data Type Check of all the elements"""
+        assert isinstance(URDU_ALPHABETS, frozenset)
+        assert isinstance(URDU_ALL_CHARACTERS, frozenset)
+        assert isinstance(URDU_UNICODE_RANGE, frozenset)
+        assert isinstance(URDU_ALL_CHARACTERS_UNICODE, frozenset)
+        assert isinstance(URDU_DIACRITICS, frozenset)
+        assert isinstance(URDU_DIGITS, frozenset)
+        assert isinstance(URDU_PUNCTUATIONS, frozenset)
