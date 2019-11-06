@@ -72,7 +72,7 @@ class TestUrduAlphabet():
         """Data Type Check of all the elements"""
         assert isinstance(URDU_ALPHABETS, frozenset)
         assert isinstance(URDU_ALL_CHARACTERS, frozenset)
-        assert isinstance(URDU_ALL_CHARACTERS_UNICODE, frozenset)
+        assert isinstance(URDU_ALL_CHARACTERS_UNICODE, dict)
         assert isinstance(URDU_DIACRITICS, frozenset)
         assert isinstance(URDU_DIGITS, frozenset)
         assert isinstance(URDU_PUNCTUATIONS, frozenset)
