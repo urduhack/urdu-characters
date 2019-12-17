@@ -100,7 +100,7 @@ As you would have noticed "ﻑ" takes on a different shape based on its position
 <img src="https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/urdu_chr_shapes.png">
 
 
-##Urdu/Arabic Character Presentation Fonts
+## Urdu/Arabic Character Presentation Fonts
 
 Now to get a bit more understanding of the above part, let's look at the unicode range for combined characters. These combined characters are given a unicode range separately. 
 This range was defined for the intuition purpose only. How two characters appear when they are combined. 
