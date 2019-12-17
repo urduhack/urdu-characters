@@ -84,6 +84,33 @@ Now the problem is how do we know on which codes we have to train our model on? 
 
 So how do we handle this issue? You can go up and look at the Urdu Unicode Range table. Unicode has standardized this range (0600-06ff) for Urdu only. So all we need to do is to do some data pre-processing before running any alogrithm on data. For each word in data having redundant codes, we can replace that word with the same standardized Urdu word belonging to the range 0600 to 06ff. That's it!
 
+## Urdu Characters Shapes
+Urdu characters take on different forms based on the position they are used inside a word. Like an urdu character used at the start of a word will have a different shape
+and the same character used in the middle or at the end of a word will have a completely different shape. This is only concerned with the font shape for that character. For illustration purpose, let's take an example of urdu character "ﻑ". Now notice the
+difference in "ﻑ" shape. 
+
+- Used at the Start: "آفاق"
+- Used in the middle: "مفاحمت"
+- Used at the End: "کیف"
+- Isolated Use: "موصوف"
+
+As you would have noticed "ﻑ" takes on a different shape based on its position of usage.
+
+<img src="https://user-images.githubusercontent.com/58520117/70933861-847caf80-205e-11ea-8c9c-5755dc88bf9e.png">
+
+##Urdu/Arabic Character Presentation Fonts
+Now to get a bit more understanding of the above part, let's look at the unicode range for combined characters. These combined characters are given a unicode range separately. 
+This range was defined for the intuition purpose only. How two characters appear when they are combined. 
+It has more to do with the usage of characters in different positions rather than the context the character is used in.  In arabic "Qaida", for teaching purpose,
+it is taught how two characters like "ل" and "ح" when combined will appear like "لح". This "لح" is given a new unicode FC40. There wil hardly be any keyboard or a system which will use
+these combined characters so this just to show different presentation forms of a character. 
+For more illustrative purpose, look at the below links. 
+
+- [Unicode Charts](https://unicode.org/charts/)
+- [Arabic Presentations Form-A](https://unicode.org/charts/PDF/UFB50.pdf)
+- [Arabic Presentation Forms-B](https://unicode.org/charts/PDF/UFE70.pdf)
+ 
+
 ## Contributing
 
 All contributions are more than welcomed. Contributions may close an issue, fix a bug (reported or not reported), improve the existing code and so on.
