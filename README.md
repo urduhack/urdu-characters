@@ -96,7 +96,7 @@ difference in "ﻑ" shape.
 
 As you would have noticed "ﻑ" takes on a different shape based on its position of usage.
 
-<img src="https://user-images.githubusercontent.com/58520117/70933861-847caf80-205e-11ea-8c9c-5755dc88bf9e.png">
+<img src="https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/urdu_chr_shapes.png">
 
 ##Urdu/Arabic Character Presentation Fonts
 Now to get a bit more understanding of the above part, let's look at the unicode range for combined characters. These combined characters are given a unicode range separately. 
