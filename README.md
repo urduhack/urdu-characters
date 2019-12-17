@@ -107,7 +107,7 @@ these combined characters so this just to show different presentation forms of a
 For more illustrative purpose, look at the below links. 
 
 - [Unicode Charts](https://unicode.org/charts/)
-- [Arabic Presentations Form-A](https://unicode.org/charts/PDF/UFB50.pdf)
+- [Arabic Presentations Forms-A](https://unicode.org/charts/PDF/UFB50.pdf)
 - [Arabic Presentation Forms-B](https://unicode.org/charts/PDF/UFE70.pdf)
  
 
