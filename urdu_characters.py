@@ -6,6 +6,19 @@ version = 2019.04.09
 Source = https://github.com/urduhack/urdu-characters
 """
 
+# Urdu Alphabets
+URDU_ALPHABETS = frozenset("آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۂ ۃ ھ ء ی ئ "
+                           "ے ۓ ".split())
+
+# Urdu Digits from 0 to 9
+URDU_DIGITS = frozenset("۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹".split())
+
+# Urdu Punctuations
+URDU_PUNCTUATIONS = frozenset("؛ ، ٫  ؟ ۔ ٪".split())
+
+# Urdu Aerabs
+URDU_DIACRITICS = frozenset("\u064e \u064B \u0670 \u0650 \u064F \u064d".split())
+
 # Complete list of Urdu language Characters.
 URDU_ALL_CHARACTERS = frozenset("آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۂ ۃ ھ ء ی "
                                 " ئ ے ۓ  "
@@ -16,19 +29,6 @@ URDU_ALL_CHARACTERS = frozenset("آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر
                                 " \u0650 \u0651 \u0652 \u0653 \u0654 \u0656 \u0657 \u0658 "
                                 " ؟ ؛ ٪ ٫ ٬ ۔ "
                                 " \u0670 ".split())
-
-# Urdu Alphabet
-URDU_ALPHABETS = frozenset("آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۂ ۃ ھ ء ی ئ "
-                           "ے ۓ ".split())
-
-# Urdu Digits from 0 to 9
-URDU_DIGITS = frozenset("۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹".split())
-
-# Urdu Punctuation
-URDU_PUNCTUATIONS = frozenset("؛ ، ٫  ؟ ۔ ٪".split())
-
-# Urdu Aerabs
-URDU_DIACRITICS = frozenset("\u064e \u064B \u0670 \u0650 \u064F \u064d".split())
 
 URDU_ALL_CHARACTERS_UNICODE = {'\u0600': '\u0600',
                                '\u0601': '\u0601',
