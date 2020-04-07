@@ -4,7 +4,7 @@ import re
 import unicodedata
 
 from urdu_characters import (URDU_ALL_CHARACTERS, URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS, URDU_DIACRITICS,
-    URDU_ALL_CHARACTERS_UNICODE, )
+                             URDU_ALL_CHARACTERS_UNICODE, )
 
 URDU_UNICODE_RANGE = re.compile("[^\u0600-\u06ff]+")
 
