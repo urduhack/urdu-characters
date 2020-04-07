@@ -4,7 +4,7 @@ import re
 import unicodedata
 
 from urdu_characters import (URDU_ALL_CHARACTERS, URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS, URDU_DIACRITICS,
-                             URDU_ALL_CHARACTERS_UNICODE, )
+                             URDU_ALL_CHARACTERS_UNICODE, URDU_EXTRAS_CHARACTERS)
 
 URDU_UNICODE_RANGE = re.compile("[^\u0600-\u06ff]+")
 
@@ -15,6 +15,7 @@ class TestUrduAlphabet():
     def test_urdu_alphabet(self):
         """ Test urdu_alphabet"""
         assert 46 == len(URDU_ALPHABETS)
+        assert isinstance(URDU_ALPHABETS, frozenset)
         for character in URDU_ALPHABETS:
             assert character in URDU_ALL_CHARACTERS
             assert len(character) == 1
@@ -23,6 +24,7 @@ class TestUrduAlphabet():
     def test_urdu_digits(self):
         """ Test """
         assert 10 == len(URDU_DIGITS)
+        assert isinstance(URDU_DIGITS, frozenset)
         for character in URDU_DIGITS:
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
@@ -31,6 +33,7 @@ class TestUrduAlphabet():
     def test_urdu_punctuation(self):
         """ Test """
         assert 6 == len(URDU_PUNCTUATIONS)
+        assert isinstance(URDU_PUNCTUATIONS, frozenset)
         for character in URDU_PUNCTUATIONS:
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
@@ -39,7 +42,17 @@ class TestUrduAlphabet():
     def test_diacritics(self):
         """ Test """
         assert 6 == len(URDU_DIACRITICS)
+        assert isinstance(URDU_DIACRITICS, frozenset)
         for character in URDU_DIACRITICS:
+            assert len(character) == 1
+            assert character in URDU_ALL_CHARACTERS
+            assert len(URDU_UNICODE_RANGE.findall(character)) == 0
+
+    def test_extras_characters(self):
+        """ Test """
+        assert 22 == len(URDU_EXTRAS_CHARACTERS)
+        assert isinstance(URDU_EXTRAS_CHARACTERS, frozenset)
+        for character in URDU_EXTRAS_CHARACTERS:
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0

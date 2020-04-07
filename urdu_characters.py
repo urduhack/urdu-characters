@@ -19,6 +19,9 @@ URDU_PUNCTUATIONS = frozenset("؛ ، ٫  ؟ ۔ ٪".split())
 # Urdu Aerabs
 URDU_DIACRITICS = frozenset("\u064e \u064B \u0670 \u0650 \u064F \u064d".split())
 
+# Urdu Extra Characters
+URDU_EXTRAS_CHARACTERS = frozenset(" ؀ ؁ ؂ ؃ ؍ ؎ ؏ ؐ ؑ ؒ ؓ ؔ ؕ ٌ ّ ْ ٓ ٔ ٖ ٗ ٘ ٬".split())
+
 # Complete list of Urdu language Characters.
 URDU_ALL_CHARACTERS = frozenset("آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۂ ۃ ھ ء ی "
                                 " ئ ے ۓ  "
