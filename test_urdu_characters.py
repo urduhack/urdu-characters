@@ -14,6 +14,7 @@ class TestUrduAlphabet():
 
     def test_urdu_alphabet(self):
         """ Test urdu_alphabet"""
+        assert 46 == len(URDU_ALPHABETS)
         for character in URDU_ALPHABETS:
             assert character in URDU_ALL_CHARACTERS
             assert len(character) == 1
@@ -21,6 +22,7 @@ class TestUrduAlphabet():
 
     def test_urdu_digits(self):
         """ Test """
+        assert 10 == len(URDU_DIGITS)
         for character in URDU_DIGITS:
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
@@ -28,6 +30,7 @@ class TestUrduAlphabet():
 
     def test_urdu_punctuation(self):
         """ Test """
+        assert 6 == len(URDU_PUNCTUATIONS)
         for character in URDU_PUNCTUATIONS:
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
@@ -35,6 +38,7 @@ class TestUrduAlphabet():
 
     def test_diacritics(self):
         """ Test """
+        assert 6 == len(URDU_DIACRITICS)
         for character in URDU_DIACRITICS:
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
