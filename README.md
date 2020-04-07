@@ -7,8 +7,6 @@
 
 Complete collection of Urdu language characters.
 
-## Version : 2019.04.09
-
 ## About Urdu Language
 
 Urdu is widely known as the national language of Pakistan, but it is also one of India’s 22 official languages. Modern Standard Urdu, once commonly known as a variant of Hindustani, a colloquial language combining the modified Sanskrit words found in Hindi with wordsbrought to India via Persian, Arabic, Portuguese, Turkish and other languages, is a language with one of the most fascinating and complex histories in the world.
