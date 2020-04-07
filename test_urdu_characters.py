@@ -20,6 +20,7 @@ class TestUrduAlphabet():
             assert character in URDU_ALL_CHARACTERS
             assert len(character) == 1
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
+            assert isinstance(character, str)
 
     def test_urdu_digits(self):
         """ Test """
@@ -29,6 +30,7 @@ class TestUrduAlphabet():
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
+            assert isinstance(character, str)
 
     def test_urdu_punctuation(self):
         """ Test """
@@ -38,6 +40,7 @@ class TestUrduAlphabet():
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
+            assert isinstance(character, str)
 
     def test_diacritics(self):
         """ Test """
@@ -47,6 +50,7 @@ class TestUrduAlphabet():
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
+            assert isinstance(character, str)
 
     def test_extras_characters(self):
         """ Test """
@@ -56,12 +60,14 @@ class TestUrduAlphabet():
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
+            assert isinstance(character, str)
 
     def test_unicode(self):
         """ Test """
         for character in URDU_ALL_CHARACTERS:
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS_UNICODE
+            assert isinstance(character, str)
 
         for character, value in URDU_ALL_CHARACTERS_UNICODE.items():
             assert len(character) == 1
