@@ -4,7 +4,7 @@ import re
 import unicodedata
 
 from urdu_characters import (URDU_ALL_CHARACTERS, URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS, URDU_DIACRITICS,
-                             URDU_ALL_CHARACTERS_UNICODE, URDU_EXTRAS_CHARACTERS)
+                             URDU_ALL_CHARACTERS_UNICODE, URDU_EXTRA_CHARACTERS)
 
 URDU_UNICODE_RANGE = re.compile("[^\u0600-\u06ff]+")
 
@@ -50,9 +50,9 @@ class TestUrduAlphabet():
 
     def test_extras_characters(self):
         """ Test """
-        assert 22 == len(URDU_EXTRAS_CHARACTERS)
-        assert isinstance(URDU_EXTRAS_CHARACTERS, frozenset)
-        for character in URDU_EXTRAS_CHARACTERS:
+        assert 22 == len(URDU_EXTRA_CHARACTERS)
+        assert isinstance(URDU_EXTRA_CHARACTERS, frozenset)
+        for character in URDU_EXTRA_CHARACTERS:
             assert len(character) == 1
             assert character in URDU_ALL_CHARACTERS
             assert len(URDU_UNICODE_RANGE.findall(character)) == 0
@@ -87,9 +87,7 @@ class TestUrduAlphabet():
 
     def test_check_data(self):
         """Data Type Check of all the elements"""
-        assert isinstance(URDU_ALPHABETS, frozenset)
         assert isinstance(URDU_ALL_CHARACTERS, frozenset)
         assert isinstance(URDU_ALL_CHARACTERS_UNICODE, dict)
-        assert isinstance(URDU_DIACRITICS, frozenset)
-        assert isinstance(URDU_DIGITS, frozenset)
-        assert isinstance(URDU_PUNCTUATIONS, frozenset)
+        assert 90 == len(URDU_ALL_CHARACTERS)
+        assert len(URDU_ALL_CHARACTERS_UNICODE) == len(URDU_ALL_CHARACTERS)
