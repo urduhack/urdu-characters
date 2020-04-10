@@ -12,8 +12,8 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - pytest -v .
-  - pytest --cov=urdu_characters -v
+  - pytest .
+  - pytest --cov=urdu_characters
   - codecov
 
 notifications:
