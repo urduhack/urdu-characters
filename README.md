@@ -109,6 +109,12 @@ For more illustrative purpose, look at the below links.
 - [Arabic Presentations Forms-A](https://unicode.org/charts/PDF/UFB50.pdf)
 - [Arabic Presentation Forms-B](https://unicode.org/charts/PDF/UFE70.pdf)
  
+## Comparison of Unicode values of Urdu and Arabic characters
+
+Thanks to (https://github.com/urdutext/UrduArabicCompare)
+
+![comparison](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/Urdu_Arabic_Unicode_comparison.png)
+
 
 ## Contributing
 
