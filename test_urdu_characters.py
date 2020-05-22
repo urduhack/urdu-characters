@@ -1,5 +1,6 @@
 # coding: utf8
 """ Test cases """
+import csv
 import re
 import unicodedata
 
@@ -101,3 +102,18 @@ def test_check_data():
     assert isinstance(URDU_ALL_CHARACTERS_UNICODE, dict)
     assert len(URDU_ALL_CHARACTERS) == 90
     assert len(URDU_ALL_CHARACTERS_UNICODE) == len(URDU_ALL_CHARACTERS)
+
+
+def test_urdu_arabic_unicode_comparison():
+    """Check CSV file"""
+    with open('img/Urdu_Arabic_Unicode_comparison.csv', encoding="utf8") as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        line_count = 0
+        for row in csv_reader:
+            if line_count in (0, 1):
+                line_count += 1
+                continue
+
+            char = row[4]
+            assert char in URDU_ALPHABETS
+            line_count += 1
