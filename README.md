@@ -8,6 +8,20 @@
 
 Complete collection of Urdu language characters.
 
+## Table of contents
+
+- [About Urdu Language](#About-Urdu-Language)
+- [What is Encoding](#What-is-Encoding)
+- [What is Unicode](#What-is-Unicode)
+- [Quick start](#quick-start)
+- [Python2 vs Python3](#python2-vs-python3)
+- [Urdu vs Arabic Characters Challenge](#urdu-vs-arabic-characters-challenge)
+- [Comparison of Unicode values of Urdu and Arabic characters](#Comparison-of-Unicode-values-of-Urdu-and-Arabic-characters)
+- [Contributing](#contributing)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Contributors](#contributors)
+- [Copyright and license](#copyright-and-license)
+
 ## About Urdu Language
 
 Urdu is widely known as the national language of Pakistan, but it is also one of India’s 22 official languages. Modern Standard Urdu, once commonly known as a variant of Hindustani, a colloquial language combining the modified Sanskrit words found in Hindi with wordsbrought to India via Persian, Arabic, Portuguese, Turkish and other languages, is a language with one of the most fascinating and complex histories in the world.
@@ -24,36 +38,23 @@ The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct let
 - https://r12a.github.io/scripts/arabic/urdu
 - https://blogs.transparent.com/urdu/a-short-history-of-urdu/
 
-## Encoding
+## What is Encoding
 
 Character encoding may be defined as assigning a unique number to each language character to be processed by the computer. Whenever a character is input from keyboard or other input devices, this particular code is generated internally in the computer. Arbitrary encoding may be defined for any application (e.g. 80 for letter ‘a’, 81 for letter ‘b’). However, if different vendors are defining arbitrary encodings, their encodings may not agree with one another. 
 
 With the advent of the Internet, it has now become increasingly essential to standardize the encoding scheme because users are accessing data created by a variety of sources through web browsers (a single application). Realizing the significance of standardizing encoding, work was done early for English and American Standard Code for Information Interchange (ASCII) was defined in 1968. This standard had 128 slots defined using 7 bits by American National Standards Institute (ANSI).
 
-## What is Unicode?
+## What is Unicode
 
 Initially most documentation was done in a single language, therefore 8-bit single language code pages served the need. However, in 1990s, with increasing needs for multi-lingual documents (where one could require Japanese and Arabic in the same document), it was realized that defining 8-bit code pages were not a scalable solution. Adding code pages for various languages and scripts and using them together in one application created a lot of difficulty and complexity in processing because users had to keep toggling between them.
 
 To address this issue, major vendors got together and created Unicode consortium (www.unicode.org). This consortium started working on developing a singular, unified and universal code chart which would contain all characters of all languages. As 8-bit (256 slots) code pages were insufficient for this requirement, Unicode character encoding standard was developed using 16 bits (65536 slots). This space has been divided to cater to various scripts and thus bypassed the need for toggling for different languages.
-
 
 ## Urdu Unicode Range(0600-06ff)
 ![urdu-unicode](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/unicode_0600_06ff.png)
 
 ## Py file Content
 ![urdu-alphabet](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/design.png)
-
-
-## Table of contents
-
-- [Quick start](#quick-start)
-- [Python2 vs Python3](#python2-vs-python3)
-- [Urdu vs Arabic Characters Challenge](#urdu-vs-arabic-characters-challenge)
-- [Comparison of Unicode values of Urdu and Arabic characters](#Comparison-of-Unicode-values-of-Urdu-and-Arabic-characters)
-- [Contributing](#contributing)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Contributors](#contributors)
-- [Copyright and license](#copyright-and-license)
 
 ## Quick start
 
