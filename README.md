@@ -49,6 +49,7 @@ To address this issue, major vendors got together and created Unicode consortium
 - [Quick start](#quick-start)
 - [Python2 vs Python3](#python2-vs-python3)
 - [Urdu vs Arabic Characters Challenge](#urdu-vs-arabic-characters-challenge)
+- [Comparison of Unicode values of Urdu and Arabic characters](#Comparison-of-Unicode-values-of-Urdu-and-Arabic-characters)
 - [Contributing](#contributing)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributors](#contributors)
@@ -112,6 +113,8 @@ For more illustrative purpose, look at the below links.
 ## Comparison of Unicode values of Urdu and Arabic characters
 
 Thanks to (https://github.com/urdutext/UrduArabicCompare)
+CSV file (https://github.com/urduhack/urdu-characters/blob/master/img/Urdu_Arabic_Unicode_comparison.csv)
+
 
 ![comparison](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/Urdu_Arabic_Unicode_comparison.png)
 
