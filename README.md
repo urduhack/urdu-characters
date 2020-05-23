@@ -118,6 +118,7 @@ For more illustrative purpose, look at the below links.
 Thanks to (https://github.com/urdutext/UrduArabicCompare)
 CSV file (https://github.com/urduhack/urdu-characters/blob/master/img/Urdu_Arabic_Unicode_comparison.csv)
 
+Urdu, Arabic, Persian, Sindhi, all occupy the same code points range i.e. 0600-06FF.
 
 ![comparison](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/Urdu_Arabic_Unicode_comparison.png)
 
