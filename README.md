@@ -8,6 +8,8 @@
 
 Complete collection of Urdu language characters.
 
+(46 Alphabets, 10 Digits, 6 Punctuations, 6 Diacritics)
+
 ## Table of contents
 
 - [About Urdu Language](#About-Urdu-Language)
