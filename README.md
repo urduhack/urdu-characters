@@ -25,10 +25,10 @@ Complete collection of Urdu language characters.
 
 ## About Urdu Language
 
-Urdu is widely known as the national language of Pakistan, but it is also one of India’s 22 official languages. Modern Standard Urdu, once commonly known as a variant of Hindustani, a colloquial language combining the modified Sanskrit words found in Hindi with wordsbrought to India via Persian, Arabic, Portuguese, Turkish and other languages, is a language with one of the most fascinating and complex histories in the world.
+Urdu is widely known as the national language of Pakistan, but it is also one of India’s 22 official languages. Modern Standard Urdu, once commonly known as a variant of Hindustani, a colloquial language combining the modified Sanskrit words found in Hindi with words brought to India via Persian, Arabic, Portuguese, Turkish and other languages, is a language with one of the most fascinating and complex histories in the world.
 
 The Urdu alphabet is the right-to-left alphabet used for the Urdu language. It is a modification of the Persian alphabet known as Perso-Arabic, which is itself a derivative of the Arabic alphabet. 
-The Urdu alphabet has up to 58 letters with 39 basic letters and no distinct letter cases, the Urdu alphabet is typically written in the calligraphic Nastaʿlīq script.
+The Urdu alphabet has **up to 58 letters with 39 basic letters** and no distinct letter cases, the Urdu alphabet is typically written in the calligraphic **Nastaʿlīq script**.
 
 - http://www.panl10n.net/english/outputs/Pakistan/Urdu-Encoding-Collation.pdf
 - http://www.bhurgri.com/bhurgri/downloads/PakLang.pdf
