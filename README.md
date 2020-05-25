@@ -54,7 +54,7 @@ To address this issue, major vendors got together and created Unicode consortium
 ## Urdu Unicode Range(0600-06ff)
 ![urdu-unicode](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/unicode_0600_06ff.png)
 
-## Py file Content
+## urdu_characters.py Content
 ![urdu-alphabet](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/design.png)
 
 ## Quick start
