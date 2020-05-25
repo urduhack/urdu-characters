@@ -67,7 +67,7 @@ To address this issue, major vendors got together and created Unicode consortium
 - `DIACRITICS` set contains 4 basic characters.
 
 
-## Urdu vs Arabic Characters Challenge
+## Urdu vs Arabic Presentation form Characters Challenge
 
 Unicode provides support for Urdu language but there is a problem we have to cater in order to utilise that support. The Urdu is incorporated in Arabic language's block in the Unicode table as Urdu is derived from Arabic script. This makes things a little bit complicated for computer scientists trying to develop applications for Urdu language.
 
