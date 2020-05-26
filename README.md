@@ -16,7 +16,7 @@ Complete collection of Urdu language characters.
 - [What is Encoding](#What-is-Encoding)
 - [What is Unicode](#What-is-Unicode)
 - [Quick start](#quick-start)
-- [Urdu vs Arabic Characters Challenge](#urdu-vs-arabic-characters-challenge)
+- [Urdu vs Arabic Presentation form Characters Challenge](#Urdu-vs-Arabic-Presentation-form-Characters-Challenge)
 - [Comparison of Unicode values of Urdu and Arabic characters](#Comparison-of-Unicode-values-of-Urdu-and-Arabic-characters)
 - [Contributing](#contributing)
 - [Bugs and feature requests](#bugs-and-feature-requests)
