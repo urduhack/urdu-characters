@@ -52,6 +52,10 @@ Initially most documentation was done in a single language, therefore 8-bit sing
 To address this issue, major vendors got together and created Unicode consortium (www.unicode.org). This consortium started working on developing a singular, unified and universal code chart which would contain all characters of all languages. As 8-bit (256 slots) code pages were insufficient for this requirement, Unicode character encoding standard was developed using 16 bits (65536 slots). This space has been divided to cater to various scripts and thus bypassed the need for toggling for different languages.
 
 ## Urdu Unicode Range(0600-06ff)
+`Arabic is a superset of Urdu, Persian, and Sindhi.`
+Urdu, Arabic, Persian, Sindhi, all occupy the same range i.e. 0600-06FF. But different code points for some
+different characters. 
+
 ![urdu-unicode](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/unicode_0600_06ff.png)
 
 ## urdu_characters.py Content
@@ -117,8 +121,6 @@ For more illustrative purpose, look at the below links.
 Thanks to (https://github.com/urdutext/UrduArabicCompare)
 <br/>
 CSV file (https://github.com/urduhack/urdu-characters/blob/master/img/Urdu_Arabic_Unicode_comparison.csv)
-
-Urdu, Arabic, Persian, Sindhi, all occupy the same code points range i.e. 0600-06FF.
 
 ![comparison](https://raw.githubusercontent.com/urduhack/urdu-characters/master/img/Urdu_Arabic_Unicode_comparison.png)
 
