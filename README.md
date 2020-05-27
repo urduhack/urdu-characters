@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/urduhack/urdu-characters.svg?branch=master)](https://travis-ci.org/urduhack/urdu-characters)
 [![CodeFactor](https://www.codefactor.io/repository/github/urduhack/urdu-characters/badge)](https://www.codefactor.io/repository/github/urduhack/urdu-characters)
 [![codecov](https://codecov.io/gh/urduhack/urdu-characters/branch/master/graph/badge.svg)](https://codecov.io/gh/urduhack/urdu-characters)
-![Gitter](https://img.shields.io/gitter/room/urduhack/urduhack)
+[![Gitter](https://badges.gitter.im/urduhack/urdu-characters.svg)](https://gitter.im/urduhack/urdu-characters?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/urdu-characters/blob/master/LICENSE)
 
 Complete collection of Urdu language characters.
