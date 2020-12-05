@@ -30,8 +30,8 @@ URDU_DIACRITICS: FrozenSet[str] = frozenset("\u064e \u064B \u0670 \u0650 \u064F 
 URDU_EXTRA_CHARACTERS: FrozenSet[str] = frozenset(" ؀ ؁ ؂ ؃ ؍ ؎ ؏ ؐ ؑ ؒ ؓ ؔ ؕ ٌ ّ ْ ٓ ٔ ٖ ٗ ٘ ٬".split())
 
 # Complete list of Urdu language Characters.
-URDU_ALL_CHARACTERS: FrozenSet[str] = frozenset().union(URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS, URDU_DIACRITICS,
-                                                        URDU_EXTRA_CHARACTERS)
+URDU_ALL_CHARACTERS: FrozenSet[str] = frozenset().union(URDU_ALPHABETS, URDU_DIGITS, URDU_PUNCTUATIONS,  # type: ignore
+                                                        URDU_DIACRITICS, URDU_EXTRA_CHARACTERS)  # type: ignore
 
 URDU_ALL_CHARACTERS_UNICODE = {'\u0600': '\u0600',
                                '\u0601': '\u0601',
