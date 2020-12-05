@@ -9,8 +9,13 @@ Source = https://github.com/urduhack/urdu-characters
 from typing import FrozenSet
 
 # Urdu Alphabets
-URDU_ALPHABETS: FrozenSet[str] = frozenset("آ أ ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل "
-                                           " م ن ں و ؤ ہ ۂ ۃ ھ ء ی ئ ے ۓ ".split())
+URDU_ALPHABETS: FrozenSet[str] = frozenset("آ أ ا ب پ ت ٹ ث "
+                                           " ج چ ح خ "
+                                           " د ڈ ذ ر ڑ ز ژ "
+                                           " س ش ص ض ط ظ ع غ "
+                                           " ف ق ک گ ل م "
+                                           " ن ں و ؤ ہ ۂ ۃ "
+                                           " ھ ء ی ئ ے ۓ ".split())
 
 # Urdu Digits from 0 to 9
 URDU_DIGITS: FrozenSet[str] = frozenset("۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹".split())
