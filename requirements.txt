@@ -1,5 +1,4 @@
 pytest
 pytest-pylint
 pytest-cov
-pytest-myp
 codecov
